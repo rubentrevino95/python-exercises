@@ -34,5 +34,26 @@ print (c[::2])
 # index to index step size in 2s
 print (c[0:6:2])
 
+# uppercase
+print (c.upper())
+
+print (c.split())
+
+print (c.split('l'))
+
+# string formatting
+print ('The {2} {1} {0}'.format('fox', 'black', 'quick'))
+
+print ('The {f} {b} {q}'.format(f='fox', b='black', q='quick'))
+
+# float formatting
+result = 100/777
+print("The result was {r:1.3f}".format(r=result))
+
+# String format
+name ="Jose"
+
+
+
 
 
