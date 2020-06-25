@@ -35,3 +35,31 @@ d = {'k1': 1, 'k2': 2, 'k3': 3}
 
 for key,value in d.items():
     print (key)
+
+
+#  WHILE LOOPS
+
+x = 0
+
+while x < 5:
+    print ('the current value of x is {x}'.format(x= x))
+    x = x + 1
+
+else:
+    print ('x is not less than 5')
+
+
+num_set = [1,2,3]
+# pass allows for nothing to be executed under loop
+for x in num_set:
+    pass
+
+
+mystring = 'sammy'
+
+for letter in mystring:
+    if letter == 'a':
+        continue
+    print (letter)
+# 'continue' goes to the top of closest enclosing loop
+# 'break' will stop the loop
