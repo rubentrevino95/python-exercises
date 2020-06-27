@@ -63,3 +63,46 @@ for letter in mystring:
     print (letter)
 # 'continue' goes to the top of closest enclosing loop
 # 'break' will stop the loop
+
+
+# for range operator
+for x in range(3, 10):
+    print (x)
+
+# for loop counter
+index_count = 0
+word = 'abcde'
+
+for letter in word:
+    print (word[index_count])
+    index_count +=1
+
+# enumeration
+# puts in form of tuples
+word2 = 'fghijk'
+
+for num, letter in enumerate(word2):
+    print (num)
+    print (letter)
+
+
+my_list1 = [1,2,3]
+my_list2 = ['a','b','c']
+
+# zip lists together
+print (zip(my_list1, my_list2))
+
+
+# find items in lists
+state = 'x' in ['x', 'y', 'z']
+
+print (state)
+
+# find values in dictionaries
+dictionary = {'mykey': 345}
+b = 345 in dictionary.values()
+print (b)
+
+# minimum value in list
+my_list3 = [10,20,30,40,50,100]
+print (min(my_list3))
