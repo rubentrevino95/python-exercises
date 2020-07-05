@@ -20,3 +20,39 @@ def makes20(a, b):
 
 
 print (makes20(4, 15))
+
+
+def add_function(a, b):
+    return a + b
+
+
+result = add_function(2, 3)
+
+print (result)
+
+
+def sub_function(a, b):
+    return a - b
+
+
+result2 = sub_function(2, 3)
+
+print (result2)
+
+
+def mult_function(a, b):
+    return a*b
+
+
+result3 = mult_function(9, 8)
+
+print (result3)
+
+
+def div_function(a, b):
+    return a / b
+
+
+result4 = div_function(24, 4)
+
+print (result4)

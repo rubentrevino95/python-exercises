@@ -1,4 +1,5 @@
 result = input('enter a response here: ')
+str(result)
 
 # print (type(result))
 
