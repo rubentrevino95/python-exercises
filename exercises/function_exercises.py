@@ -27,3 +27,16 @@ def myfunc(x):
         else:
             out.append(x[i].upper())
     return ''.join(out)
+
+
+# volume of sphere
+
+def vol(rad):
+    return (4/3)*3.14*(rad**3)
+
+
+def ran_check(num, low, high):
+    if num in range(low, high+1):
+        print('{num} is in range of low and high'.format(num='num'))
+    else:
+        print ('not in range')
