@@ -40,3 +40,43 @@ def ran_check(num, low, high):
         print('{num} is in range of low and high'.format(num='num'))
     else:
         print ('not in range')
+
+
+def perfect_number(n):
+    sum = 0
+    for x in range(1, n):
+        if n % x == 0:
+            sum += x
+    return sum == n
+
+
+print(perfect_number(6))
+
+
+def pascal_triangle(n):
+    trow = [1]
+    y = [0]
+    for x in range(max(n,0)):
+        print(trow)
+        trow=[l+r for l,r in zip(trow+y, y+trow)]
+    return n>=1
+
+
+pascal_triangle(6)
+
+
+items=[n for n in input().split('-')]
+items.sort()
+print('-'.join(items))
+
+
+def calculateSum(num):
+    if num:
+        return num + calculateSum(num-1)
+    else:
+        return 0
+
+
+res = calculateSum(10)
+
+print(res)
