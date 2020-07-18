@@ -150,6 +150,8 @@ enter_pay.click()
 
 card_number = driver.find_element_by_xpath('//*[@id="card-element"]/div/iframe')
 
+card_number.click()
+
 card_number.send_keys('424242424242424242424242424')
 
 pay = driver.find_element_by_xpath('//*[@id="submitButton"]')
