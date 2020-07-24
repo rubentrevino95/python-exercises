@@ -23,9 +23,9 @@ zip = driver.find_element_by_xpath('//*[@id="zip"]')
 
 zip.send_keys('30000')
 
-county = driver.find_element_by_xpath('//*[@id="county"]')
-
-county.click()
+# county = driver.find_element_by_xpath('//*[@id="county"]')
+#
+# county.click()
 
 count_option = driver.find_element_by_xpath('//*[@id="county"]/option[2]')
 

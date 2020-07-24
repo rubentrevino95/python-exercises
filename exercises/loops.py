@@ -106,3 +106,15 @@ print (b)
 # minimum value in list
 my_list3 = [10,20,30,40,50,100]
 print (min(my_list3))
+
+for n in range(30):
+    if n % 2 != 0:
+        print ('Weird')
+    elif n % 2 == 0 and n > 20:
+        print (n)
+    elif n == 2 or 4:
+        print (n)
+    elif n % 2 == 0 and n[6:20]:
+        print (n)
+    else:
+        print (n)
