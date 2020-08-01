@@ -16,12 +16,12 @@ class Person():
 
 
 # creating instance of object
-ruben = Person(name='Ruben', gender='male', age=24)
+person1 = Person(name='Ruben', gender='male', age=24)
 
 # print(type(ruben))
 
-print (ruben.name, ruben.gender, ruben.age, ruben.species)
+print (person1.name, person1.gender, person1.age, person1.species)
 
-print (ruben.speak())
+print (person1.speak())
 
 # methods are function in classes

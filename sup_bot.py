@@ -1,5 +1,6 @@
 from selenium import webdriver
 
+
 driver = webdriver.Chrome()
 driver.get('https://www.supremenewyork.com/shop/all')
 
@@ -7,9 +8,13 @@ product = driver.find_element_by_xpath('//*[@id="container"]/li[73]/div/a')
 
 product.click()
 
-size = driver.find_element_by_xpath('//*[@id="s"]/option[3]')
+size = driver.find_element_by_xpath('//*[@id="s"]')
 
 size.click()
+
+size_choice = driver.find_element_by_xpath('//*[@id="s"]/option[3]')
+
+size_choice.click()
 
 add_cart = driver.find_element_by_xpath('//*[@id="add-remove-buttons"]/input')
 
