@@ -74,3 +74,17 @@ for x in [2,4,6]:
 nested_flat = [x*y for x in [2,4,6] for y in [40,60,80]]
 
 print (nested_flat)
+
+test_list = [2, 4, 6, 8, 10]
+
+test_list.append(14)
+
+print(test_list)
+
+def add_to_list(arr):
+    arr.append(2)
+
+
+for x in test_list:
+    print (x*2)
+

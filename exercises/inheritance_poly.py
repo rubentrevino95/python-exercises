@@ -37,9 +37,14 @@ class Dog(Animal):
         print ("BARK")
 
 
-dog1 = Dog("dobber", 'female', 'lucky')
+# dog1 = Dog("dobber", 'female', 'lucky')
 
 
-print (dog1)
+# print (dog1)
 
-print (dog1.bark())
+# print (dog1.bark())
+
+
+for pet in [animal1]:
+    print (type(pet))
+    print (type(pet.action(1)))
