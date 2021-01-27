@@ -1,6 +1,6 @@
 import os
 import shutil
-from datetime import datetime
+import datetime
 
 # opening file (creating one) w+ mode to write
 f = open('practice.txt', 'w+')
