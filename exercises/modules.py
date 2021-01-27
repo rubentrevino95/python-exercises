@@ -1,5 +1,6 @@
 from collections import Counter
 from collections import defaultdict
+from collections import namedtuple
 
 
 numlist = [1, 1, 1, 2, 2, 3, 3]
@@ -20,6 +21,13 @@ dictionary = defaultdict(lambda: 0)
 dictionary['correct'] = 100
 
 print(dictionary['correct'])
+
+# similar to class attributes and class call
+person = namedtuple('person',['age', 'gender', 'bloodtype'])
+
+sammy = person(age= 21, gender= 'male', bloodtype= 'O-')
+
+print(sammy)
 
 
 # for x in range(0,100):
