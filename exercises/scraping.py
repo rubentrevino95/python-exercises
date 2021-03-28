@@ -1,5 +1,5 @@
 import requests
-import bs4
+from bs4 import BeautifulSoup
 
 result = requests.get('https://en.wikipedia.org/wiki/Main_Page')
 
